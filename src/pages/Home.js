@@ -28,7 +28,7 @@ const Home = () => {
           setFetchError('Could not fetch posts')
           setPosts(null)
           console.log(error)
-        }
+        }``
         if (data) {
           setPosts(data)
           setFetchError(null)
